@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>PhishShield - Tests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .test-form {
+            margin: 20px 0;
+        }
+        .result-item {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+        }
+        input[type="url"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>PhishShield - Page de test</h1>
+    
+    <form id="test-form" class="test-form">
+        <label for="url-input">URL à tester:</label>
+        <input type="url" id="url-input" required 
+               placeholder="https://example.com">
+        <button type="submit">Analyser</button>
+    </form>
+
+    <div id="test-results"></div>
+
+    <script src="manual-test.js"></script>
+</body>
+</html>

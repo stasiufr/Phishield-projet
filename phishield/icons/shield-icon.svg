@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Base Shield Shape -->
+  <path d="M64 8 L120 32 L120 64 C120 96 96 120 64 120 C32 120 8 96 8 64 L8 32 Z" 
+        fill="#4CAF50" stroke="#388E3C" stroke-width="4"/>
+  
+  <!-- Fish Symbol (for phishing) -->
+  <path d="M45 50 C60 45 75 45 90 50 C75 55 60 55 45 50 Z 
+           M85 48 L90 45 L85 42" 
+        fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Hook Symbol -->
+  <path d="M50 65 C50 70 55 75 60 75 C65 75 70 70 70 65 L70 55" 
+        fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Slash (crossed out) -->
+  <line x1="40" y1="40" x2="88" y2="88" 
+        stroke="#D32F2F" stroke-width="6" stroke-linecap="round"/>
+</svg>

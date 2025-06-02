@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishShield</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PhishShield</h1>
+            <div id="status-indicator">Prêt</div>
+        </header>
+
+        <main>
+            <section class="current-site">
+                <h2>Site actuel</h2>
+                <div id="current-url"></div>
+            </section>
+
+            <section class="risk-assessment">
+                <h2>Évaluation des risques</h2>
+                <div class="score-container">
+                    <div class="score-circle"></div>
+                    <div id="risk-score">Analyse en cours...</div>
+                    <div id="risk-level"></div>
+                </div>
+            </section>
+
+            <section class="analysis-details">
+                <h2>Détails de l'analyse</h2>
+                <div id="analysis-details">
+                    <div class="loading">Analyse en cours...</div>
+                </div>
+            </section>
+
+            <section class="api-results" id="api-results">
+                <h2>Résultats des API externes</h2>
+                <div class="api-container">
+                    <div class="virustotal-results" id="virustotal-results"></div>
+                    <div class="safebrowsing-results" id="safebrowsing-results"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <button id="report-button" class="button">Signaler</button>
+            <button id="settings-button" class="button">Paramètres</button>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
